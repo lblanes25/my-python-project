@@ -1,0 +1,7 @@
+# created by virtualenv automatically
+**.xlsx
+*.xls
+.venv/
+*.pyc
+__pycache__/
+output/
