@@ -1,0 +1,424 @@
+2025-05-12 14:23:28,079 - qa_analytics - INFO - Loaded config for QA-ID 77
+2025-05-12 14:23:28,080 - qa_analytics - INFO - Available analytics: [('77', 'Audit Test Workpaper Approvals')]
+2025-05-12 14:23:28,080 - qa_analytics - INFO - Loaded config for QA-ID 77: Audit Test Workpaper Approvals
+2025-05-12 14:23:28,080 - qa_analytics - INFO - Processing data from test_data/qa_77_test_data.xlsx
+2025-05-12 14:23:28,089 - qa_analytics - INFO - Successfully loaded source data with 50 rows
+2025-05-12 14:23:28,092 - qa_analytics - INFO - Loaded reference data 'HR_Titles' with 11 entries
+2025-05-12 14:23:28,094 - qa_analytics - INFO - Validation 'segregation_of_duties' completed - 35 of 50 records conform
+2025-05-12 14:23:28,095 - qa_analytics - INFO - Validation 'approval_sequence' completed - 35 of 50 records conform
+2025-05-12 14:23:28,096 - qa_analytics - INFO - Validation 'title_based_approval' completed - 50 of 50 records conform
+2025-05-12 14:23:28,097 - qa_analytics - INFO - Validation complete: 25 GC, 25 DNC
+2025-05-12 14:23:28,101 - qa_analytics - INFO - Processing completed: Processing complete
+2025-05-12 14:23:28,101 - qa_analytics - INFO - Generating reports...
+2025-05-12 14:23:28,133 - qa_analytics - INFO - Generated main report: output\QA_77_Main_20250512_142328.xlsx
+2025-05-12 14:23:28,173 - qa_analytics - INFO - Generated individual report for Bob Brown: output\QA_77_Bob Brown_20250512.xlsx
+2025-05-12 14:23:28,201 - qa_analytics - INFO - Generated individual report for Jane Smith: output\QA_77_Jane Smith_20250512.xlsx
+2025-05-12 14:23:28,227 - qa_analytics - INFO - Generated individual report for Ian Jackson: output\QA_77_Ian Jackson_20250512.xlsx
+2025-05-12 14:23:28,227 - qa_analytics - INFO - Processing complete. Generated 4 reports.
+2025-05-12 14:23:28,227 - qa_analytics - INFO - 
+================================================================================
+2025-05-12 14:23:28,227 - qa_analytics - INFO - TEST RESULTS SUMMARY FOR QA-ID 77
+2025-05-12 14:23:28,227 - qa_analytics - INFO - ================================================================================
+2025-05-12 14:23:28,228 - qa_analytics - INFO - Total records processed: 50
+2025-05-12 14:23:28,228 - qa_analytics - INFO - Generally Conforms (GC): 25 (50.0%)
+2025-05-12 14:23:28,228 - qa_analytics - INFO - Does Not Conform (DNC): 25 (50.0%)
+2025-05-12 14:23:28,228 - qa_analytics - INFO - Partially Conforms (PC): 0 (0.0%)
+2025-05-12 14:23:28,228 - qa_analytics - INFO - ================================================================================
+2025-05-12 14:23:28,228 - qa_analytics - INFO - 
+Validation Rule Results:
+2025-05-12 14:23:28,228 - qa_analytics - INFO -   segregation_of_duties: 35 passed, 15 failed
+2025-05-12 14:23:28,228 - qa_analytics - INFO -   approval_sequence: 35 passed, 15 failed
+2025-05-12 14:23:28,228 - qa_analytics - INFO -   title_based_approval: 50 passed, 0 failed
+2025-05-12 14:23:28,228 - qa_analytics - INFO - 
+Summary by Group:
+2025-05-12 14:23:28,230 - qa_analytics - INFO - 
+Compliance  AL approver  GC  PC  DNC  Total  DNC_Percentage  Exceeds_Threshold
+0             Bob Brown   6   0   12     18           66.67               True
+1           Ian Jackson   7   0    6     13           46.15               True
+2            Jane Smith   7   0    7     14           50.00               True
+2025-05-12 14:23:28,230 - qa_analytics - INFO - 
+Generated Reports:
+2025-05-12 14:23:28,230 - qa_analytics - INFO -   output\QA_77_Bob Brown_20250512.xlsx
+2025-05-12 14:23:28,230 - qa_analytics - INFO -   output\QA_77_Ian Jackson_20250512.xlsx
+2025-05-12 14:23:28,230 - qa_analytics - INFO -   output\QA_77_Jane Smith_20250512.xlsx
+2025-05-12 14:23:28,230 - qa_analytics - INFO -   output\QA_77_Main_20250512_142328.xlsx
+2025-05-12 14:23:28,231 - qa_analytics - INFO - ================================================================================
+2025-05-12 14:32:10,824 - qa_analytics - INFO - Loaded config for QA-ID 77
+2025-05-12 14:32:10,824 - qa_analytics - INFO - Available analytics: [('77', 'Audit Test Workpaper Approvals')]
+2025-05-12 14:32:10,824 - qa_analytics - INFO - Loaded config for QA-ID 77: Audit Test Workpaper Approvals
+2025-05-12 14:32:10,824 - qa_analytics - INFO - Processing data from test_data/qa_77_test_data.xlsx
+2025-05-12 14:32:10,833 - qa_analytics - INFO - Successfully loaded source data with 50 rows
+2025-05-12 14:32:10,836 - qa_analytics - INFO - Loaded reference data 'HR_Titles' with 11 entries
+2025-05-12 14:32:10,837 - qa_analytics - INFO - Validation 'segregation_of_duties' completed - 35 of 50 records conform
+2025-05-12 14:32:10,839 - qa_analytics - INFO - Validation 'approval_sequence' completed - 35 of 50 records conform
+2025-05-12 14:32:10,840 - qa_analytics - INFO - Validation 'title_based_approval' completed - 50 of 50 records conform
+2025-05-12 14:32:10,841 - qa_analytics - INFO - Validation complete: 25 GC, 25 DNC
+2025-05-12 14:32:10,844 - qa_analytics - INFO - Processing completed: Processing complete
+2025-05-12 14:32:10,844 - qa_analytics - INFO - Generating reports...
+2025-05-12 14:32:10,883 - qa_analytics - INFO - Generated main report: output\QA_77_Main_20250512_143210.xlsx
+2025-05-12 14:32:10,912 - qa_analytics - INFO - Generated individual report for Ian Jackson: output\QA_77_Ian Jackson_20250512.xlsx
+2025-05-12 14:32:10,941 - qa_analytics - INFO - Generated individual report for Jane Smith: output\QA_77_Jane Smith_20250512.xlsx
+2025-05-12 14:32:10,970 - qa_analytics - INFO - Generated individual report for Bob Brown: output\QA_77_Bob Brown_20250512.xlsx
+2025-05-12 14:32:10,970 - qa_analytics - INFO - Processing complete. Generated 4 reports.
+2025-05-12 14:32:10,970 - qa_analytics - INFO - 
+================================================================================
+2025-05-12 14:32:10,971 - qa_analytics - INFO - TEST RESULTS SUMMARY FOR QA-ID 77
+2025-05-12 14:32:10,971 - qa_analytics - INFO - ================================================================================
+2025-05-12 14:32:10,971 - qa_analytics - INFO - Total records processed: 50
+2025-05-12 14:32:10,971 - qa_analytics - INFO - Generally Conforms (GC): 25 (50.0%)
+2025-05-12 14:32:10,971 - qa_analytics - INFO - Does Not Conform (DNC): 25 (50.0%)
+2025-05-12 14:32:10,971 - qa_analytics - INFO - Partially Conforms (PC): 0 (0.0%)
+2025-05-12 14:32:10,971 - qa_analytics - INFO - ================================================================================
+2025-05-12 14:32:10,971 - qa_analytics - INFO - 
+Validation Rule Results:
+2025-05-12 14:32:10,971 - qa_analytics - INFO -   segregation_of_duties: 35 passed, 15 failed
+2025-05-12 14:32:10,971 - qa_analytics - INFO -   approval_sequence: 35 passed, 15 failed
+2025-05-12 14:32:10,971 - qa_analytics - INFO -   title_based_approval: 50 passed, 0 failed
+2025-05-12 14:32:10,971 - qa_analytics - INFO - 
+Summary by Group:
+2025-05-12 14:32:10,973 - qa_analytics - INFO - 
+Compliance  AL approver  GC  PC  DNC  Total  DNC_Percentage  Exceeds_Threshold
+0             Bob Brown   9   0   13     22           59.09               True
+1           Ian Jackson   5   0    6     11           54.55               True
+2            Jane Smith   6   0    6     12           50.00               True
+2025-05-12 14:32:10,973 - qa_analytics - INFO - 
+Generated Reports:
+2025-05-12 14:32:10,973 - qa_analytics - INFO -   output\QA_77_Bob Brown_20250512.xlsx
+2025-05-12 14:32:10,973 - qa_analytics - INFO -   output\QA_77_Ian Jackson_20250512.xlsx
+2025-05-12 14:32:10,973 - qa_analytics - INFO -   output\QA_77_Jane Smith_20250512.xlsx
+2025-05-12 14:32:10,973 - qa_analytics - INFO -   output\QA_77_Main_20250512_142328.xlsx
+2025-05-12 14:32:10,973 - qa_analytics - INFO -   output\QA_77_Main_20250512_143210.xlsx
+2025-05-12 14:32:10,973 - qa_analytics - INFO - ================================================================================
+2025-05-12 14:42:48,261 - qa_analytics - INFO - Loaded config for QA-ID 77
+2025-05-12 14:42:48,263 - qa_analytics - INFO - Loaded config for QA-ID 78
+2025-05-12 14:42:48,264 - qa_analytics - INFO - Available analytics: [('77', 'Audit Test Workpaper Approvals'), ('78', 'Third Party Risk Assessment Validation')]
+2025-05-12 14:42:48,264 - qa_analytics - INFO - Loaded config for QA-ID 78: Third Party Risk Assessment Validation
+2025-05-12 14:42:48,264 - qa_analytics - INFO - Processing data from test_data/qa_78_test_data.xlsx
+2025-05-12 14:42:48,272 - qa_analytics - INFO - Successfully loaded source data with 50 rows
+2025-05-12 14:42:48,273 - qa_analytics - INFO - Validation 'third_party_risk_validation' completed - 35 of 50 records conform
+2025-05-12 14:42:48,275 - qa_analytics - INFO - Validation complete: 35 GC, 15 DNC
+2025-05-12 14:42:48,278 - qa_analytics - INFO - Processing completed: Processing complete
+2025-05-12 14:42:48,278 - qa_analytics - INFO - Generating reports...
+2025-05-12 14:42:48,312 - qa_analytics - INFO - Generated main report: output\QA_78_Main_20250512_144248.xlsx
+2025-05-12 14:42:48,336 - qa_analytics - INFO - Generated individual report for Sarah Brown: output\QA_78_Sarah Brown_20250512.xlsx
+2025-05-12 14:42:48,361 - qa_analytics - INFO - Generated individual report for Maria Johnson: output\QA_78_Maria Johnson_20250512.xlsx
+2025-05-12 14:42:48,385 - qa_analytics - INFO - Generated individual report for David Wilson: output\QA_78_David Wilson_20250512.xlsx
+2025-05-12 14:42:48,411 - qa_analytics - INFO - Generated individual report for James Smith: output\QA_78_James Smith_20250512.xlsx
+2025-05-12 14:42:48,439 - qa_analytics - INFO - Generated individual report for Emily Davis: output\QA_78_Emily Davis_20250512.xlsx
+2025-05-12 14:42:48,439 - qa_analytics - INFO - Processing complete. Generated 6 reports.
+2025-05-12 14:42:48,439 - qa_analytics - INFO - 
+================================================================================
+2025-05-12 14:42:48,439 - qa_analytics - INFO - TEST RESULTS SUMMARY FOR QA-ID 78
+2025-05-12 14:42:48,439 - qa_analytics - INFO - ================================================================================
+2025-05-12 14:42:48,439 - qa_analytics - INFO - Total records processed: 50
+2025-05-12 14:42:48,439 - qa_analytics - INFO - Generally Conforms (GC): 35 (70.0%)
+2025-05-12 14:42:48,439 - qa_analytics - INFO - Does Not Conform (DNC): 15 (30.0%)
+2025-05-12 14:42:48,439 - qa_analytics - INFO - Partially Conforms (PC): 0 (0.0%)
+2025-05-12 14:42:48,439 - qa_analytics - INFO - ================================================================================
+2025-05-12 14:42:48,439 - qa_analytics - INFO - 
+Validation Rule Results:
+2025-05-12 14:42:48,439 - qa_analytics - INFO -   third_party_risk_validation: 35 passed, 15 failed
+2025-05-12 14:42:48,439 - qa_analytics - INFO - 
+Summary by Group:
+2025-05-12 14:42:48,441 - qa_analytics - INFO - 
+Compliance   Audit Leader  GC  PC  DNC  Total  DNC_Percentage  Exceeds_Threshold
+0            David Wilson   6   0    2      8           25.00               True
+1             Emily Davis  13   0    2     15           13.33               True
+2             James Smith   5   0    6     11           54.55               True
+3           Maria Johnson   6   0    3      9           33.33               True
+4             Sarah Brown   5   0    2      7           28.57               True
+2025-05-12 14:42:48,441 - qa_analytics - INFO - 
+Generated Reports:
+2025-05-12 14:42:48,441 - qa_analytics - INFO -   output\QA_78_David Wilson_20250512.xlsx
+2025-05-12 14:42:48,441 - qa_analytics - INFO -   output\QA_78_Emily Davis_20250512.xlsx
+2025-05-12 14:42:48,441 - qa_analytics - INFO -   output\QA_78_James Smith_20250512.xlsx
+2025-05-12 14:42:48,441 - qa_analytics - INFO -   output\QA_78_Main_20250512_144248.xlsx
+2025-05-12 14:42:48,441 - qa_analytics - INFO -   output\QA_78_Maria Johnson_20250512.xlsx
+2025-05-12 14:42:48,441 - qa_analytics - INFO -   output\QA_78_Sarah Brown_20250512.xlsx
+2025-05-12 14:42:48,442 - qa_analytics - INFO - ================================================================================
+2025-05-12 14:48:58,804 - qa_analytics - INFO - Loaded config for QA-ID 77
+2025-05-12 14:48:58,806 - qa_analytics - INFO - Loaded config for QA-ID 78
+2025-05-12 14:48:58,806 - qa_analytics - INFO - Available analytics: [('77', 'Audit Test Workpaper Approvals'), ('78', 'Third Party Risk Assessment Validation')]
+2025-05-12 14:48:58,806 - qa_analytics - INFO - Loaded config for QA-ID 78: Third Party Risk Assessment Validation
+2025-05-12 14:48:58,806 - qa_analytics - INFO - Processing data from test_data/qa_78_test_data.xlsx
+2025-05-12 14:48:58,815 - qa_analytics - INFO - Successfully loaded source data with 50 rows
+2025-05-12 14:48:58,816 - qa_analytics - INFO - Validation 'third_party_risk_validation' completed - 35 of 50 records conform
+2025-05-12 14:48:58,817 - qa_analytics - INFO - Validation complete: 35 GC, 15 DNC
+2025-05-12 14:48:58,820 - qa_analytics - INFO - Processing completed: Processing complete
+2025-05-12 14:48:58,820 - qa_analytics - INFO - Generating reports...
+2025-05-12 14:48:58,852 - qa_analytics - INFO - Generated main report: output\QA_78_Main_20250512_144858.xlsx
+2025-05-12 14:48:58,876 - qa_analytics - INFO - Generated individual report for David Wilson: output\QA_78_David Wilson_20250512.xlsx
+2025-05-12 14:48:58,899 - qa_analytics - INFO - Generated individual report for Maria Johnson: output\QA_78_Maria Johnson_20250512.xlsx
+2025-05-12 14:48:58,923 - qa_analytics - INFO - Generated individual report for Emily Davis: output\QA_78_Emily Davis_20250512.xlsx
+2025-05-12 14:48:58,948 - qa_analytics - INFO - Generated individual report for Sarah Brown: output\QA_78_Sarah Brown_20250512.xlsx
+2025-05-12 14:48:58,971 - qa_analytics - INFO - Generated individual report for James Smith: output\QA_78_James Smith_20250512.xlsx
+2025-05-12 14:48:58,972 - qa_analytics - INFO - Processing complete. Generated 6 reports.
+2025-05-12 14:48:58,972 - qa_analytics - INFO - 
+================================================================================
+2025-05-12 14:48:58,972 - qa_analytics - INFO - TEST RESULTS SUMMARY FOR QA-ID 78
+2025-05-12 14:48:58,972 - qa_analytics - INFO - ================================================================================
+2025-05-12 14:48:58,972 - qa_analytics - INFO - Total records processed: 50
+2025-05-12 14:48:58,972 - qa_analytics - INFO - Generally Conforms (GC): 35 (70.0%)
+2025-05-12 14:48:58,972 - qa_analytics - INFO - Does Not Conform (DNC): 15 (30.0%)
+2025-05-12 14:48:58,972 - qa_analytics - INFO - Partially Conforms (PC): 0 (0.0%)
+2025-05-12 14:48:58,972 - qa_analytics - INFO - ================================================================================
+2025-05-12 14:48:58,972 - qa_analytics - INFO - 
+Validation Rule Results:
+2025-05-12 14:48:58,972 - qa_analytics - INFO -   third_party_risk_validation: 35 passed, 15 failed
+2025-05-12 14:48:58,972 - qa_analytics - INFO - 
+Summary by Group:
+2025-05-12 14:48:58,973 - qa_analytics - INFO - 
+Compliance   Audit Leader  GC  PC  DNC  Total  DNC_Percentage  Exceeds_Threshold
+0            David Wilson   7   0    2      9           22.22               True
+1             Emily Davis   6   0    0      6            0.00              False
+2             James Smith   7   0    4     11           36.36               True
+3           Maria Johnson   6   0    5     11           45.45               True
+4             Sarah Brown   9   0    4     13           30.77               True
+2025-05-12 14:48:58,973 - qa_analytics - INFO - 
+Generated Reports:
+2025-05-12 14:48:58,974 - qa_analytics - INFO -   output\QA_78_David Wilson_20250512.xlsx
+2025-05-12 14:48:58,974 - qa_analytics - INFO -   output\QA_78_Emily Davis_20250512.xlsx
+2025-05-12 14:48:58,974 - qa_analytics - INFO -   output\QA_78_James Smith_20250512.xlsx
+2025-05-12 14:48:58,974 - qa_analytics - INFO -   output\QA_78_Main_20250512_144248.xlsx
+2025-05-12 14:48:58,974 - qa_analytics - INFO -   output\QA_78_Main_20250512_144858.xlsx
+2025-05-12 14:48:58,974 - qa_analytics - INFO -   output\QA_78_Maria Johnson_20250512.xlsx
+2025-05-12 14:48:58,974 - qa_analytics - INFO -   output\QA_78_Sarah Brown_20250512.xlsx
+2025-05-12 14:48:58,974 - qa_analytics - INFO - ================================================================================
+2025-05-12 14:54:39,459 - qa_analytics - INFO - Loaded config for QA-ID 77
+2025-05-12 14:54:39,461 - qa_analytics - INFO - Loaded config for QA-ID 78
+2025-05-12 14:55:16,855 - qa_analytics - INFO - Starting processing for 2 analytics: 77, 78
+2025-05-12 14:55:16,860 - qa_analytics - INFO - Loaded config for QA-ID 77
+2025-05-12 14:55:16,862 - qa_analytics - INFO - Loaded config for QA-ID 78
+2025-05-12 14:55:16,863 - qa_analytics - INFO - Running analytic 77: Audit Test Workpaper Approvals
+2025-05-12 14:55:16,874 - qa_analytics - INFO - Successfully loaded source data with 50 rows
+2025-05-12 14:55:16,877 - qa_analytics - INFO - Loaded reference data 'HR_Titles' with 11 entries
+2025-05-12 14:55:16,878 - qa_analytics - INFO - Validation 'segregation_of_duties' completed - 35 of 50 records conform
+2025-05-12 14:55:16,879 - qa_analytics - INFO - Validation 'approval_sequence' completed - 35 of 50 records conform
+2025-05-12 14:55:16,881 - qa_analytics - INFO - Validation 'title_based_approval' completed - 50 of 50 records conform
+2025-05-12 14:55:16,882 - qa_analytics - INFO - Validation complete: 25 GC, 25 DNC
+2025-05-12 14:55:16,887 - qa_analytics - INFO - Analytic 77 processed successfully
+2025-05-12 14:55:16,887 - qa_analytics - INFO - Running analytic 78: Third Party Risk Assessment Validation
+2025-05-12 14:55:16,893 - qa_analytics - INFO - Successfully loaded source data with 50 rows
+2025-05-12 14:55:16,894 - qa_analytics - INFO - Validation 'third_party_risk_validation' completed - 25 of 50 records conform
+2025-05-12 14:55:16,895 - qa_analytics - INFO - Validation complete: 25 GC, 25 DNC
+2025-05-12 14:55:16,898 - qa_analytics - INFO - Analytic 78 processed successfully
+2025-05-12 14:55:16,936 - qa_analytics - INFO - Generated consolidated report for Bob Brown: output\Consolidated_Bob_Brown_20250512.xlsx
+2025-05-12 14:55:16,959 - qa_analytics - INFO - Generated consolidated report for David Wilson: output\Consolidated_David_Wilson_20250512.xlsx
+2025-05-12 14:55:16,982 - qa_analytics - INFO - Generated consolidated report for Maria Johnson: output\Consolidated_Maria_Johnson_20250512.xlsx
+2025-05-12 14:55:17,006 - qa_analytics - INFO - Generated consolidated report for Sarah Brown: output\Consolidated_Sarah_Brown_20250512.xlsx
+2025-05-12 14:55:17,029 - qa_analytics - INFO - Generated consolidated report for Ian Jackson: output\Consolidated_Ian_Jackson_20250512.xlsx
+2025-05-12 14:55:17,054 - qa_analytics - INFO - Generated consolidated report for Jane Smith: output\Consolidated_Jane_Smith_20250512.xlsx
+2025-05-12 14:55:17,072 - qa_analytics - INFO - Generated consolidated report for Emily Davis: output\Consolidated_Emily_Davis_20250512.xlsx
+2025-05-12 14:55:17,096 - qa_analytics - INFO - Generated consolidated report for James Smith: output\Consolidated_James_Smith_20250512.xlsx
+2025-05-12 14:55:17,096 - qa_analytics - INFO - Processing complete. Generated 8 reports.
+2025-05-12 14:55:17,097 - qa_analytics - INFO - 
+Generated reports:
+2025-05-12 14:55:17,097 - qa_analytics - INFO -   output\Consolidated_Bob_Brown_20250512.xlsx
+2025-05-12 14:55:17,098 - qa_analytics - INFO -   output\Consolidated_David_Wilson_20250512.xlsx
+2025-05-12 14:55:17,100 - qa_analytics - INFO -   output\Consolidated_Maria_Johnson_20250512.xlsx
+2025-05-12 14:55:17,101 - qa_analytics - INFO -   output\Consolidated_Sarah_Brown_20250512.xlsx
+2025-05-12 14:55:17,101 - qa_analytics - INFO -   output\Consolidated_Ian_Jackson_20250512.xlsx
+2025-05-12 14:55:17,101 - qa_analytics - INFO -   output\Consolidated_Jane_Smith_20250512.xlsx
+2025-05-12 14:55:17,102 - qa_analytics - INFO -   output\Consolidated_Emily_Davis_20250512.xlsx
+2025-05-12 14:55:17,104 - qa_analytics - INFO -   output\Consolidated_James_Smith_20250512.xlsx
+2025-05-12 14:58:11,907 - qa_analytics - INFO - Loaded config for QA-ID 77
+2025-05-12 14:58:11,909 - qa_analytics - INFO - Loaded config for QA-ID 78
+2025-05-12 14:58:21,312 - qa_analytics - INFO - Starting processing for 2 analytics: 77, 78
+2025-05-12 14:58:21,317 - qa_analytics - INFO - Loaded config for QA-ID 77
+2025-05-12 14:58:21,320 - qa_analytics - INFO - Loaded config for QA-ID 78
+2025-05-12 14:58:21,321 - qa_analytics - INFO - Running analytic 77: Audit Test Workpaper Approvals
+2025-05-12 14:58:21,330 - qa_analytics - INFO - Successfully loaded source data with 50 rows
+2025-05-12 14:58:21,333 - qa_analytics - INFO - Loaded reference data 'HR_Titles' with 11 entries
+2025-05-12 14:58:21,334 - qa_analytics - INFO - Validation 'segregation_of_duties' completed - 35 of 50 records conform
+2025-05-12 14:58:21,335 - qa_analytics - INFO - Validation 'approval_sequence' completed - 35 of 50 records conform
+2025-05-12 14:58:21,337 - qa_analytics - INFO - Validation 'title_based_approval' completed - 50 of 50 records conform
+2025-05-12 14:58:21,338 - qa_analytics - INFO - Validation complete: 25 GC, 25 DNC
+2025-05-12 14:58:21,342 - qa_analytics - INFO - Analytic 77 processed successfully
+2025-05-12 14:58:21,343 - qa_analytics - INFO - Running analytic 78: Third Party Risk Assessment Validation
+2025-05-12 14:58:21,349 - qa_analytics - INFO - Successfully loaded source data with 50 rows
+2025-05-12 14:58:21,350 - qa_analytics - INFO - Validation 'third_party_risk_validation' completed - 25 of 50 records conform
+2025-05-12 14:58:21,351 - qa_analytics - INFO - Validation complete: 25 GC, 25 DNC
+2025-05-12 14:58:21,353 - qa_analytics - INFO - Analytic 78 processed successfully
+2025-05-12 14:58:21,379 - qa_analytics - ERROR - Error generating consolidated main report: Writing to Excel with MultiIndex columns and no index ('index'=False) is not yet implemented.
+2025-05-12 14:58:21,381 - qa_analytics - ERROR - Traceback (most recent call last):
+  File "C:\Users\luria\PycharmProjects\AnalyticAutomation\consolidated_report_generator.py", line 142, in generate_consolidated_main_report
+    self._create_department_summary(writer, results_by_analytic, leader_field_by_analytic, all_leaders)
+  File "C:\Users\luria\PycharmProjects\AnalyticAutomation\consolidated_report_generator.py", line 345, in _create_department_summary
+    heatmap.to_excel(
+  File "C:\Users\luria\PycharmProjects\AnalyticAutomation\.venv\Lib\site-packages\pandas\util\_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\luria\PycharmProjects\AnalyticAutomation\.venv\Lib\site-packages\pandas\core\generic.py", line 2417, in to_excel
+    formatter.write(
+  File "C:\Users\luria\PycharmProjects\AnalyticAutomation\.venv\Lib\site-packages\pandas\io\formats\excel.py", line 952, in write
+    writer._write_cells(
+  File "C:\Users\luria\PycharmProjects\AnalyticAutomation\.venv\Lib\site-packages\pandas\io\excel\_openpyxl.py", line 486, in _write_cells
+    for cell in cells:
+  File "C:\Users\luria\PycharmProjects\AnalyticAutomation\.venv\Lib\site-packages\pandas\io\formats\excel.py", line 889, in get_formatted_cells
+    for cell in itertools.chain(self._format_header(), self._format_body()):
+  File "C:\Users\luria\PycharmProjects\AnalyticAutomation\.venv\Lib\site-packages\pandas\io\formats\excel.py", line 617, in _format_header_mi
+    raise NotImplementedError(
+NotImplementedError: Writing to Excel with MultiIndex columns and no index ('index'=False) is not yet implemented.
+
+2025-05-12 14:58:21,399 - qa_analytics - INFO - Generated consolidated report for Sarah Brown: output\Consolidated_Sarah_Brown_20250512.xlsx
+2025-05-12 14:58:21,424 - qa_analytics - INFO - Generated consolidated report for Bob Brown: output\Consolidated_Bob_Brown_20250512.xlsx
+2025-05-12 14:58:21,443 - qa_analytics - INFO - Generated consolidated report for Ian Jackson: output\Consolidated_Ian_Jackson_20250512.xlsx
+2025-05-12 14:58:21,461 - qa_analytics - INFO - Generated consolidated report for Emily Davis: output\Consolidated_Emily_Davis_20250512.xlsx
+2025-05-12 14:58:21,479 - qa_analytics - INFO - Generated consolidated report for Maria Johnson: output\Consolidated_Maria_Johnson_20250512.xlsx
+2025-05-12 14:58:21,498 - qa_analytics - INFO - Generated consolidated report for David Wilson: output\Consolidated_David_Wilson_20250512.xlsx
+2025-05-12 14:58:21,524 - qa_analytics - INFO - Generated consolidated report for Jane Smith: output\Consolidated_Jane_Smith_20250512.xlsx
+2025-05-12 14:58:21,544 - qa_analytics - INFO - Generated consolidated report for James Smith: output\Consolidated_James_Smith_20250512.xlsx
+2025-05-12 14:58:21,544 - qa_analytics - INFO - Processing complete. Generated 8 individual reports.
+2025-05-12 14:58:21,545 - qa_analytics - INFO - 
+Generated individual reports:
+2025-05-12 14:58:21,548 - qa_analytics - INFO -   output\Consolidated_Sarah_Brown_20250512.xlsx
+2025-05-12 14:58:21,549 - qa_analytics - INFO -   output\Consolidated_Bob_Brown_20250512.xlsx
+2025-05-12 14:58:21,549 - qa_analytics - INFO -   output\Consolidated_Ian_Jackson_20250512.xlsx
+2025-05-12 14:58:21,550 - qa_analytics - INFO -   output\Consolidated_Emily_Davis_20250512.xlsx
+2025-05-12 14:58:21,552 - qa_analytics - INFO -   output\Consolidated_Maria_Johnson_20250512.xlsx
+2025-05-12 14:58:21,559 - qa_analytics - INFO -   output\Consolidated_David_Wilson_20250512.xlsx
+2025-05-12 14:58:21,560 - qa_analytics - INFO -   output\Consolidated_Jane_Smith_20250512.xlsx
+2025-05-12 14:58:21,561 - qa_analytics - INFO -   output\Consolidated_James_Smith_20250512.xlsx
+2025-05-12 14:59:47,203 - qa_analytics - INFO - Loaded config for QA-ID 77
+2025-05-12 14:59:47,205 - qa_analytics - INFO - Loaded config for QA-ID 78
+2025-05-12 14:59:53,757 - qa_analytics - INFO - Starting processing for 2 analytics: 77, 78
+2025-05-12 14:59:53,761 - qa_analytics - INFO - Loaded config for QA-ID 77
+2025-05-12 14:59:53,764 - qa_analytics - INFO - Loaded config for QA-ID 78
+2025-05-12 14:59:53,764 - qa_analytics - INFO - Running analytic 77: Audit Test Workpaper Approvals
+2025-05-12 14:59:53,774 - qa_analytics - INFO - Successfully loaded source data with 50 rows
+2025-05-12 14:59:53,777 - qa_analytics - INFO - Loaded reference data 'HR_Titles' with 11 entries
+2025-05-12 14:59:53,778 - qa_analytics - INFO - Validation 'segregation_of_duties' completed - 35 of 50 records conform
+2025-05-12 14:59:53,780 - qa_analytics - INFO - Validation 'approval_sequence' completed - 35 of 50 records conform
+2025-05-12 14:59:53,781 - qa_analytics - INFO - Validation 'title_based_approval' completed - 50 of 50 records conform
+2025-05-12 14:59:53,782 - qa_analytics - INFO - Validation complete: 25 GC, 25 DNC
+2025-05-12 14:59:53,785 - qa_analytics - INFO - Analytic 77 processed successfully
+2025-05-12 14:59:53,787 - qa_analytics - INFO - Running analytic 78: Third Party Risk Assessment Validation
+2025-05-12 14:59:53,792 - qa_analytics - INFO - Successfully loaded source data with 50 rows
+2025-05-12 14:59:53,793 - qa_analytics - INFO - Validation 'third_party_risk_validation' completed - 25 of 50 records conform
+2025-05-12 14:59:53,794 - qa_analytics - INFO - Validation complete: 25 GC, 25 DNC
+2025-05-12 14:59:53,797 - qa_analytics - INFO - Analytic 78 processed successfully
+2025-05-12 14:59:53,816 - qa_analytics - ERROR - Error adding detail data: 'OpenpyxlWriter' object has no attribute 'path'
+2025-05-12 14:59:53,850 - qa_analytics - INFO - Generated consolidated department-level report: output\QA_Department_Consolidated_Report_20250512.xlsx
+2025-05-12 14:59:53,868 - qa_analytics - INFO - Generated consolidated report for Sarah Brown: output\Consolidated_Sarah_Brown_20250512.xlsx
+2025-05-12 14:59:53,886 - qa_analytics - INFO - Generated consolidated report for James Smith: output\Consolidated_James_Smith_20250512.xlsx
+2025-05-12 14:59:53,910 - qa_analytics - INFO - Generated consolidated report for Jane Smith: output\Consolidated_Jane_Smith_20250512.xlsx
+2025-05-12 14:59:53,929 - qa_analytics - INFO - Generated consolidated report for Emily Davis: output\Consolidated_Emily_Davis_20250512.xlsx
+2025-05-12 14:59:53,956 - qa_analytics - INFO - Generated consolidated report for Bob Brown: output\Consolidated_Bob_Brown_20250512.xlsx
+2025-05-12 14:59:53,977 - qa_analytics - INFO - Generated consolidated report for Maria Johnson: output\Consolidated_Maria_Johnson_20250512.xlsx
+2025-05-12 14:59:53,997 - qa_analytics - INFO - Generated consolidated report for Ian Jackson: output\Consolidated_Ian_Jackson_20250512.xlsx
+2025-05-12 14:59:54,019 - qa_analytics - INFO - Generated consolidated report for David Wilson: output\Consolidated_David_Wilson_20250512.xlsx
+2025-05-12 14:59:54,019 - qa_analytics - INFO - Processing complete. Generated 8 individual reports.
+
+Department-level consolidated report generated:
+output\QA_Department_Consolidated_Report_20250512.xlsx
+2025-05-12 14:59:54,021 - qa_analytics - INFO - 
+Generated individual reports:
+2025-05-12 14:59:54,022 - qa_analytics - INFO -   output\Consolidated_Sarah_Brown_20250512.xlsx
+2025-05-12 14:59:54,023 - qa_analytics - INFO -   output\Consolidated_James_Smith_20250512.xlsx
+2025-05-12 14:59:54,024 - qa_analytics - INFO -   output\Consolidated_Jane_Smith_20250512.xlsx
+2025-05-12 14:59:54,025 - qa_analytics - INFO -   output\Consolidated_Emily_Davis_20250512.xlsx
+2025-05-12 14:59:54,025 - qa_analytics - INFO -   output\Consolidated_Bob_Brown_20250512.xlsx
+2025-05-12 14:59:54,026 - qa_analytics - INFO -   output\Consolidated_Maria_Johnson_20250512.xlsx
+2025-05-12 14:59:54,029 - qa_analytics - INFO -   output\Consolidated_Ian_Jackson_20250512.xlsx
+2025-05-12 14:59:54,029 - qa_analytics - INFO -   output\Consolidated_David_Wilson_20250512.xlsx
+2025-05-12 14:59:54,030 - qa_analytics - INFO - 
+Generated department-level consolidated report:
+2025-05-12 14:59:54,034 - qa_analytics - INFO -   output\QA_Department_Consolidated_Report_20250512.xlsx
+2025-05-12 14:59:54,034 - qa_analytics - INFO - 
+This report contains a comprehensive department-wide view for QA evaluation.
+2025-05-12 15:02:56,560 - qa_analytics - INFO - Loaded config for QA-ID 77
+2025-05-12 15:02:56,562 - qa_analytics - INFO - Loaded config for QA-ID 78
+2025-05-12 15:03:07,500 - qa_analytics - INFO - Starting processing for 2 analytics: 77, 78
+2025-05-12 15:03:07,505 - qa_analytics - INFO - Loaded config for QA-ID 77
+2025-05-12 15:03:07,507 - qa_analytics - INFO - Loaded config for QA-ID 78
+2025-05-12 15:03:07,507 - qa_analytics - INFO - Running analytic 77: Audit Test Workpaper Approvals
+2025-05-12 15:03:07,517 - qa_analytics - INFO - Successfully loaded source data with 50 rows
+2025-05-12 15:03:07,521 - qa_analytics - INFO - Loaded reference data 'HR_Titles' with 11 entries
+2025-05-12 15:03:07,522 - qa_analytics - INFO - Validation 'segregation_of_duties' completed - 35 of 50 records conform
+2025-05-12 15:03:07,523 - qa_analytics - INFO - Validation 'approval_sequence' completed - 35 of 50 records conform
+2025-05-12 15:03:07,525 - qa_analytics - INFO - Validation 'title_based_approval' completed - 50 of 50 records conform
+2025-05-12 15:03:07,527 - qa_analytics - INFO - Validation complete: 25 GC, 25 DNC
+2025-05-12 15:03:07,530 - qa_analytics - INFO - Analytic 77 processed successfully
+2025-05-12 15:03:07,530 - qa_analytics - INFO - Running analytic 78: Third Party Risk Assessment Validation
+2025-05-12 15:03:07,536 - qa_analytics - INFO - Successfully loaded source data with 50 rows
+2025-05-12 15:03:07,537 - qa_analytics - INFO - Validation 'third_party_risk_validation' completed - 25 of 50 records conform
+2025-05-12 15:03:07,538 - qa_analytics - INFO - Validation complete: 25 GC, 25 DNC
+2025-05-12 15:03:07,540 - qa_analytics - INFO - Analytic 78 processed successfully
+2025-05-12 15:03:07,540 - qa_analytics - ERROR - Error generating consolidated main report: [Errno 13] Permission denied: 'output\\QA_Department_Consolidated_Report_20250512.xlsx'
+2025-05-12 15:03:07,543 - qa_analytics - ERROR - Traceback (most recent call last):
+  File "C:\Users\luria\PycharmProjects\AnalyticAutomation\consolidated_report_generator.py", line 140, in generate_consolidated_main_report
+    with pd.ExcelWriter(output_path, engine='openpyxl') as writer:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\luria\PycharmProjects\AnalyticAutomation\.venv\Lib\site-packages\pandas\io\excel\_openpyxl.py", line 61, in __init__
+    super().__init__(
+  File "C:\Users\luria\PycharmProjects\AnalyticAutomation\.venv\Lib\site-packages\pandas\io\excel\_base.py", line 1246, in __init__
+    self._handles = get_handle(
+                    ^^^^^^^^^^^
+  File "C:\Users\luria\PycharmProjects\AnalyticAutomation\.venv\Lib\site-packages\pandas\io\common.py", line 882, in get_handle
+    handle = open(handle, ioargs.mode)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'output\\QA_Department_Consolidated_Report_20250512.xlsx'
+
+2025-05-12 15:03:07,571 - qa_analytics - INFO - Generated consolidated report for Jane Smith: output\Consolidated_Jane_Smith_20250512.xlsx
+2025-05-12 15:03:07,590 - qa_analytics - INFO - Generated consolidated report for Maria Johnson: output\Consolidated_Maria_Johnson_20250512.xlsx
+2025-05-12 15:03:07,608 - qa_analytics - INFO - Generated consolidated report for James Smith: output\Consolidated_James_Smith_20250512.xlsx
+2025-05-12 15:03:07,626 - qa_analytics - INFO - Generated consolidated report for Emily Davis: output\Consolidated_Emily_Davis_20250512.xlsx
+2025-05-12 15:03:07,644 - qa_analytics - INFO - Generated consolidated report for David Wilson: output\Consolidated_David_Wilson_20250512.xlsx
+2025-05-12 15:03:07,669 - qa_analytics - INFO - Generated consolidated report for Bob Brown: output\Consolidated_Bob_Brown_20250512.xlsx
+2025-05-12 15:03:07,687 - qa_analytics - INFO - Generated consolidated report for Sarah Brown: output\Consolidated_Sarah_Brown_20250512.xlsx
+2025-05-12 15:03:07,706 - qa_analytics - INFO - Generated consolidated report for Ian Jackson: output\Consolidated_Ian_Jackson_20250512.xlsx
+2025-05-12 15:03:07,706 - qa_analytics - INFO - Processing complete. Generated 8 individual reports.
+2025-05-12 15:03:07,707 - qa_analytics - INFO - 
+Generated individual reports:
+2025-05-12 15:03:07,708 - qa_analytics - INFO -   output\Consolidated_Jane_Smith_20250512.xlsx
+2025-05-12 15:03:07,709 - qa_analytics - INFO -   output\Consolidated_Maria_Johnson_20250512.xlsx
+2025-05-12 15:03:07,710 - qa_analytics - INFO -   output\Consolidated_James_Smith_20250512.xlsx
+2025-05-12 15:03:07,711 - qa_analytics - INFO -   output\Consolidated_Emily_Davis_20250512.xlsx
+2025-05-12 15:03:07,712 - qa_analytics - INFO -   output\Consolidated_David_Wilson_20250512.xlsx
+2025-05-12 15:03:07,712 - qa_analytics - INFO -   output\Consolidated_Bob_Brown_20250512.xlsx
+2025-05-12 15:03:07,713 - qa_analytics - INFO -   output\Consolidated_Sarah_Brown_20250512.xlsx
+2025-05-12 15:03:07,714 - qa_analytics - INFO -   output\Consolidated_Ian_Jackson_20250512.xlsx
+2025-05-12 15:03:15,780 - qa_analytics - INFO - Starting processing for 2 analytics: 77, 78
+2025-05-12 15:03:15,785 - qa_analytics - INFO - Loaded config for QA-ID 77
+2025-05-12 15:03:15,788 - qa_analytics - INFO - Loaded config for QA-ID 78
+2025-05-12 15:03:15,788 - qa_analytics - INFO - Running analytic 77: Audit Test Workpaper Approvals
+2025-05-12 15:03:15,796 - qa_analytics - INFO - Successfully loaded source data with 50 rows
+2025-05-12 15:03:15,799 - qa_analytics - INFO - Loaded reference data 'HR_Titles' with 11 entries
+2025-05-12 15:03:15,800 - qa_analytics - INFO - Validation 'segregation_of_duties' completed - 35 of 50 records conform
+2025-05-12 15:03:15,802 - qa_analytics - INFO - Validation 'approval_sequence' completed - 35 of 50 records conform
+2025-05-12 15:03:15,803 - qa_analytics - INFO - Validation 'title_based_approval' completed - 50 of 50 records conform
+2025-05-12 15:03:15,805 - qa_analytics - INFO - Validation complete: 25 GC, 25 DNC
+2025-05-12 15:03:15,808 - qa_analytics - INFO - Analytic 77 processed successfully
+2025-05-12 15:03:15,810 - qa_analytics - INFO - Running analytic 78: Third Party Risk Assessment Validation
+2025-05-12 15:03:15,815 - qa_analytics - INFO - Successfully loaded source data with 50 rows
+2025-05-12 15:03:15,817 - qa_analytics - INFO - Validation 'third_party_risk_validation' completed - 25 of 50 records conform
+2025-05-12 15:03:15,818 - qa_analytics - INFO - Validation complete: 25 GC, 25 DNC
+2025-05-12 15:03:15,821 - qa_analytics - INFO - Analytic 78 processed successfully
+2025-05-12 15:03:15,889 - qa_analytics - INFO - Generated consolidated department-level report: output\QA_Department_Consolidated_Report_20250512.xlsx
+2025-05-12 15:03:15,913 - qa_analytics - INFO - Generated consolidated report for Jane Smith: output\Consolidated_Jane_Smith_20250512.xlsx
+2025-05-12 15:03:15,931 - qa_analytics - INFO - Generated consolidated report for Maria Johnson: output\Consolidated_Maria_Johnson_20250512.xlsx
+2025-05-12 15:03:15,950 - qa_analytics - INFO - Generated consolidated report for James Smith: output\Consolidated_James_Smith_20250512.xlsx
+2025-05-12 15:03:15,968 - qa_analytics - INFO - Generated consolidated report for Emily Davis: output\Consolidated_Emily_Davis_20250512.xlsx
+2025-05-12 15:03:15,986 - qa_analytics - INFO - Generated consolidated report for David Wilson: output\Consolidated_David_Wilson_20250512.xlsx
+2025-05-12 15:03:16,016 - qa_analytics - INFO - Generated consolidated report for Bob Brown: output\Consolidated_Bob_Brown_20250512.xlsx
+2025-05-12 15:03:16,035 - qa_analytics - INFO - Generated consolidated report for Sarah Brown: output\Consolidated_Sarah_Brown_20250512.xlsx
+2025-05-12 15:03:16,054 - qa_analytics - INFO - Generated consolidated report for Ian Jackson: output\Consolidated_Ian_Jackson_20250512.xlsx
+2025-05-12 15:03:16,054 - qa_analytics - INFO - Processing complete. Generated 8 individual reports.
+
+Department-level consolidated report generated:
+output\QA_Department_Consolidated_Report_20250512.xlsx
+2025-05-12 15:03:16,055 - qa_analytics - INFO - 
+Generated individual reports:
+2025-05-12 15:03:16,056 - qa_analytics - INFO -   output\Consolidated_Jane_Smith_20250512.xlsx
+2025-05-12 15:03:16,057 - qa_analytics - INFO -   output\Consolidated_Maria_Johnson_20250512.xlsx
+2025-05-12 15:03:16,058 - qa_analytics - INFO -   output\Consolidated_James_Smith_20250512.xlsx
+2025-05-12 15:03:16,059 - qa_analytics - INFO -   output\Consolidated_Emily_Davis_20250512.xlsx
+2025-05-12 15:03:16,059 - qa_analytics - INFO -   output\Consolidated_David_Wilson_20250512.xlsx
+2025-05-12 15:03:16,060 - qa_analytics - INFO -   output\Consolidated_Bob_Brown_20250512.xlsx
+2025-05-12 15:03:16,061 - qa_analytics - INFO -   output\Consolidated_Sarah_Brown_20250512.xlsx
+2025-05-12 15:03:16,062 - qa_analytics - INFO -   output\Consolidated_Ian_Jackson_20250512.xlsx
+2025-05-12 15:03:16,062 - qa_analytics - INFO - 
+Generated department-level consolidated report:
+2025-05-12 15:03:16,064 - qa_analytics - INFO -   output\QA_Department_Consolidated_Report_20250512.xlsx
+2025-05-12 15:03:16,065 - qa_analytics - INFO - 
+This report contains a comprehensive department-wide view for QA evaluation.

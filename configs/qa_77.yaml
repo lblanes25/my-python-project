@@ -1,0 +1,93 @@
+analytic_id: 77
+analytic_name: Audit Test Workpaper Approvals
+analytic_description: This analytic evaluates workpaper approvals to ensure proper
+  segregation of duties, correct approval sequences, and appropriate approval authority
+  based on job titles. It helps identify process violations that could impact audit
+  quality.
+source:
+  file_type: xlsx
+  required_columns:
+  - name: Audit TW ID
+    alias:
+    - TW_ID
+    - Workpaper ID
+  - name: TW submitter
+    alias:
+    - Submitter
+    - Prepared By
+  - name: TL approver
+    alias:
+    - Team Lead
+    - TL
+  - name: AL approver
+    alias:
+    - Audit Leader
+    - AL
+  - name: Submit Date
+    alias:
+    - Submission Date
+    - Date Submitted
+  - name: TL Approval Date
+    alias:
+    - TL Date
+  - name: AL Approval Date
+    alias:
+    - AL Date
+reference_files:
+- name: HR_Titles
+  path: ref_data/hr_titles.xlsx
+  key_column: Employee_Name
+  value_column: Title
+validations:
+- rule: segregation_of_duties
+  description: Submitter cannot be TL or AL
+  rationale: Ensures independent review by preventing the submitter from also being
+    an approver, which maintains the integrity of the review process.
+  parameters:
+    submitter_field: TW submitter
+    approver_fields:
+    - TL approver
+    - AL approver
+- rule: approval_sequence
+  description: Approvals must be in order - Submit -> TL -> AL
+  rationale: Maintains proper workflow sequence to ensure the Team Lead reviews before
+    the Audit Leader and that no approvals happen before submission.
+  parameters:
+    date_fields_in_order:
+    - Submit Date
+    - TL Approval Date
+    - AL Approval Date
+- rule: title_based_approval
+  description: AL must have appropriate title
+  rationale: Ensures approval authority is limited to those with appropriate job titles,
+    maintaining organizational hierarchy and approval standards.
+  parameters:
+    approver_field: AL approver
+    allowed_titles:
+    - Audit Leader
+    - Executive Auditor
+    - Audit Manager
+    title_reference: HR_Titles
+thresholds:
+  error_percentage: 5.0
+  rationale: Industry standard for audit workpapers allows for up to 5% error rate.
+    Higher rates require remediation and process review.
+reporting:
+  group_by: AL approver
+  summary_fields:
+  - GC
+  - PC
+  - DNC
+  - Total
+  - DNC_Percentage
+  detail_required: true
+report_metadata:
+  owner: Quality Assurance Team
+  review_frequency: Monthly
+  last_revised: '2025-05-01'
+  version: '1.0'
+  contact_email: qa_analytics@example.com
+  regulatory_requirement: SOX 404
+  business_impact: High
+  notes: This analytic is part of the core audit quality monitoring program and results
+    should be reviewed monthly by the QA Director.

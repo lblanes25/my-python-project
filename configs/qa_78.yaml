@@ -1,0 +1,42 @@
+# Sample configuration file for QA-ID 78: Third Party Risk Assessment Validation
+# Save this as qa_78.yaml in your configs directory
+
+analytic_id: 78
+analytic_name: 'Third Party Risk Assessment Validation'
+analytic_description: 'This analytic evaluates audit entities with third parties to ensure appropriate risk levels are assigned. It verifies that when third parties are present, a valid risk assessment has been performed and documented.'
+
+source:
+  file_type: 'xlsx'
+  required_columns:
+    - {name: 'Audit Entity ID', alias: ['Entity ID', 'Audit ID']}
+    - {name: 'Audit Name', alias: ['Entity Name']}
+    - {name: 'Audit Leader', alias: ['AL', 'Leader']}
+    - {name: 'Third Parties', alias: ['TP List', '3P List']}
+    - {name: 'L1 Third Party Risk', alias: ['TP Risk Level', 'Third Party Risk']}
+
+validations:
+  - rule: 'third_party_risk_validation'
+    description: 'Third party risk assessment must be completed when third parties are present'
+    rationale: 'Ensures risk assessment is conducted for all audit entities with third parties, which is a regulatory requirement and critical for risk management.'
+    parameters:
+      third_party_field: 'Third Parties'
+      risk_level_field: 'L1 Third Party Risk'
+
+thresholds:
+  error_percentage: 2.0
+  rationale: 'Due to regulatory requirements and risk implications, a stricter 2% threshold is applied for third party risk assessment compliance.'
+
+reporting:
+  group_by: 'Audit Leader'
+  summary_fields: ['GC', 'PC', 'DNC', 'Total', 'DNC_Percentage']
+  detail_required: True
+
+report_metadata:
+  owner: 'Third Party Risk Management Team'
+  review_frequency: 'Monthly'
+  last_revised: '2025-05-01'
+  version: '1.0'
+  contact_email: 'tprm@example.com'
+  regulatory_requirement: 'TPRM Policy Section 3.4'
+  business_impact: 'High'
+  notes: 'This analytic supports regulatory compliance requirements for third party risk management. Results should be reviewed monthly by the TPRM Director.'
